@@ -85,7 +85,7 @@ val2 = null ?? 10;
 val3 = null ?? 10 ?? 20
 console.log(val1); //5
 console.log(val2); //10
-console.log(val3);
+console.log(val3); //10
 
 /*
     sometimes when we call values from database, we dont get the response directly instead we got 2 values
@@ -93,3 +93,10 @@ console.log(val3);
     used, if value is null then assign null, if value is undefined then assign undefined, if any value is comes
     then assign that value.
 */
+
+//terniary operator
+
+const icetea = 100
+
+// condition?true:false
+icetea <= 80 ? console.log("less then 80") : console.log("more than 80");
